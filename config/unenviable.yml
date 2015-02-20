@@ -1,0 +1,6 @@
+FLICKR_API_KEY:
+  description: 'API key for using Flickr - obtained from Flickr account'
+  required: 'development, production'
+FLICKR_SHARED_SECRET:
+  description: 'Secret key matchin API KEY - obtained from Flickr account, used by default controller'
+  required: 'development, production'

@@ -2,10 +2,13 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.1.7'
 
+gem 'dotenv'
+
 group :development do
   gem 'sqlite3'
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'keyth'
 end
 
 group :production do
@@ -46,7 +49,6 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'dotenv'
 gem 'unenviable'
 gem 'flickraw'
 
